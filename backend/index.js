@@ -3,7 +3,7 @@ const app = express(); //express nundi oche variables anni app ki assign chesam
 const mongoose = require("mongoose");
 const vendor = require("./models/Vendor.js");
 const path = require("path");
-const port = 7000;
+const port = process.env.PORT || 7000;
 const dotenv = require("dotenv");
 //routes
 const vendorRoutes = require("./routes/routes");
