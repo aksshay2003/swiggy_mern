@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navsection {
+  border: 2px solid red;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orangered;
+  color: white;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.sidebarSection {
+  /* background-color: red; */
+  border: 2px solid rgb(179, 11, 11);
+  width: 100%;
+  max-width: 20%;
+  /* margin: 10px; */
+  height: 95vh;
+  background-color: lightgray;
+}
+.sidebarSection ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* login section */
+.loginSection {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5px; */
+}
+/* landing page */
+.sideandlogin {
+  display: flex;
+}
+.Allforms {
+  width: 100%;
+  max-width: 50%;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Allforms h1 {
+  font-size: 30px;
+}
+#inp{
+  width: 300px;
+}
+

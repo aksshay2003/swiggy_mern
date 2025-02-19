@@ -1,0 +1,17 @@
+
+-express
+-body-parser
+-nodemon
+-mongoose
+-dotenv
+-jsonwebtoken(for generating tokens)
+-bcryptjs(hashing pass)
+-multer(for images)
+
+*API*
+	-model
+	  Vendor:username,email,password
+	  firm(restaurant):firmname,area,category,region,offer,image
+	  product:productName,price,category,image,description,bestseller,
+	-controller
+	-routes

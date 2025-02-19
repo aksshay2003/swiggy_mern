@@ -1,0 +1,9 @@
+components-
+	-vendordashboard
+	-navbar
+	-forms
+	-sidebar	
+		-vendor_register
+		-vendor_login
+		-add-firm
+		-add_products
