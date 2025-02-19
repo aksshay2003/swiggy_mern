@@ -3,7 +3,7 @@ const app = express(); //express nundi oche variables anni app ki assign chesam
 const mongoose = require("mongoose");
 const vendor = require("./models/Vendor.js");
 const path = require("path");
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 7000; //for render.com(deployment)  CI=GIT AND CD=render
 const dotenv = require("dotenv");
 //routes
 const vendorRoutes = require("./routes/routes");
@@ -57,6 +57,6 @@ app.get("/getuserbyId/:id", async (req, res) => {
 
 //then is for sucess and catch error
 //router
-// app.use("/", (req, res) => {
-//   res.send("<h1>iam server");
-// });
+app.use("/", (req, res) => {
+  res.send("<h1>iam server");
+});
